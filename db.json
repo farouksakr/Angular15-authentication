@@ -2,81 +2,39 @@
   "user": [
     {
       "id": "testadmin",
-      "name": "farouk",
+      "name": "admin",
       "password": "Test@1234",
-      "email": "test@sa.com",
+      "email": "test@admin.com",
       "gender": "male",
       "role": "admin",
       "isactive": true
     },
     {
       "id": "testuser",
-      "name": "Test User",
+      "name": "user",
       "password": "Test@1234",
-      "email": "test@in.com",
+      "email": "te@user.com",
       "gender": "male",
       "role": "user",
       "isactive": true
     },
     {
-      "id": "ntuser",
-      "name": "ramesh",
+      "id": "testuser1",
+      "name": "user1",
       "password": "Test@1234",
-      "email": "te@in.com",
+      "email": "te@user.com",
       "gender": "male",
       "role": "tech",
-      "isactive": true,
-      "address": {
-        "area": "banglore"
-      }
+      "isactive": true
     },
     {
-      "id": "user1",
-      "name": "testuser1",
+      "id": "testuser2",
+      "name": "user2",
       "password": "Test@1234",
-      "email": "te@in.com",
+      "email": "te@user.com",
       "gender": "male",
       "role": "tech",
-      "isactive": true,
-      "address": {
-        "area": "banglore"
-      }
-    },
-    {
-      "id": "user2",
-      "name": "testuser2",
-      "password": "Test@1234",
-      "email": "te@in.com",
-      "gender": "male",
-      "role": "tech",
-      "isactive": true,
-      "address": {
-        "area": "banglore"
-      }
-    },
-    {
-      "id": "user3",
-      "name": "testuser3",
-      "password": "Test@1234",
-      "email": "te@in.com",
-      "gender": "male",
-      "role": "tech",
-      "isactive": true,
-      "address": {
-        "area": "banglore"
-      }
-    },
-    {
-      "id": "user4",
-      "name": "testuser4",
-      "password": "Test@1234",
-      "email": "te@in.com",
-      "gender": "male",
-      "role": "tech",
-      "isactive": true,
-      "address": {
-        "area": "banglore"
-      }
+      "isactive": false
     }
   ],
   "role": [
@@ -132,27 +90,22 @@
   "customer": [
     {
       "id": 1,
-      "name": "rakhesh",
+      "name": "user1",
       "Creditlimit": 1000
     },
     {
       "id": 2,
-      "name": "rahul",
+      "name": "user2",
       "Creditlimit": 1000
     },
     {
       "id": 3,
-      "name": "ramesh",
+      "name": "user3",
       "Creditlimit": 1000
     },
     {
       "id": 4,
-      "name": "rahim",
-      "Creditlimit": 1000
-    },
-    {
-      "id": 5,
-      "name": "robert",
+      "name": "user4",
       "Creditlimit": 1000
     }
   ]

@@ -12,8 +12,9 @@ export class AuthGuard implements CanActivate {
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-  
+
     if (this.service.isloggedin()) {
+
       if (route.url.length > 0) {
         let menu = route.url[0].path;
         if (menu == 'user') {
@@ -21,7 +22,7 @@ export class AuthGuard implements CanActivate {
             return true;
           } else {
             this.router.navigate(['']);
-              this.tostr.warning('You dont have access.')
+            this.tostr.warning('You dont have access.')
             return false;
           }
         }else{

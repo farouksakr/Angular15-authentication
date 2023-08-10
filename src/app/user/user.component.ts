@@ -44,7 +44,7 @@ export class UserComponent implements AfterViewInit {
     const popup = this.dialog.open(UpdatepopupComponent, {
       enterAnimationDuration: enteranimation,
       exitAnimationDuration: exitanimation,
-      width: '30%',
+      width: '40%',
       data: {
         usercode: code,
       }
